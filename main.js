@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let myBalance = 20000;
 console.log(` My current balance is ${myBalance}`);
@@ -64,3 +65,4 @@ if (enterPin.pin === myPinCode) {
 else {
     console.log("Alert!! Please Enter Your Correct Pin ");
 }
+console.log("the end");

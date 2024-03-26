@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 
 let myBalance: number = 20000;
@@ -65,3 +67,6 @@ if (enterPin.pin === myPinCode) {
 } else {
   console.log("Alert!! Please Enter Your Correct Pin ");
 }
+
+
+console.log("the end")
